@@ -9,5 +9,4 @@ void main() {
   pago mensual ingresando el valor de la casa.
   */
   //DEFINICION VARIABLE
-  double ingresos, cuotaInicial, costoCasa, pagoMensual;
 }
