@@ -108,4 +108,5 @@ hombres > 15 años   14 - 18 g%
     }
   }
   //SALIDA ALGORITMO
+  print("Usted tiene: $resultado");
 }
