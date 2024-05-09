@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  // JUAN PABLO RIOS ARISTIZABAL - EJE CONDICIONAL DOBLE 01
+  // JUAN PABLO RIOS ARISTIZABAL - EJE DOBLE 01
   /*
   Desarrollar un algoritmo que lea dos números y los imprima en forma ascendente.  
   */

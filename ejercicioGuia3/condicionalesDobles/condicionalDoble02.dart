@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  // JUAN PABLO RIOS ARISTIZABAL - EJE CONDICIONAL DOBLE 02
+  // JUAN PABLO RIOS ARISTIZABAL - EJE DOBLE 02
   /*
   Un obrero necesita calcular su salario semanal, el cual se obtiene de la sig. manera:
   • Si trabaja 40 horas o menos se le paga $16 por hora

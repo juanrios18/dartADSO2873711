@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  // JUAN PABLO RIOS ARISTIZABAL - EJE CONDICIONAL ANIDADO 05
+  // JUAN PABLO RIOS ARISTIZABAL - EJE ANIDADO 05
   /*
   Una frutería ofrece las manzanas con descuento según la siguiente tabla:
   NUM. DE KILOS COMPRADOS   % DESCUENTO

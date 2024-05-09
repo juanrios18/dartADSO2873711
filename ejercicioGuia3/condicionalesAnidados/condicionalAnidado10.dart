@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  // JUAN PABLO RIOS ARISTIZABAL - EJE CONDICIONAL ANIDADO 10
+  // JUAN PABLO RIOS ARISTIZABAL - EJE ANIDADO 10
   /*
   Tomando como base los resultados obtenidos en un laboratorio de análisis clínicos, un medico
   determina si una persona esta normal, tiene anemia o tiene cardiopatía lo cual depende de su nivel

@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  // JUAN PABLO RIOS ARISTIZABAL - EJE CONDICIONAL MULTIPLE 01
+  // JUAN PABLO RIOS ARISTIZABAL - EJE MULTIPLE 01
   /*
   La empresa comercializadora Solva vende escobas, recogedores y aromatizantes, clasifica a sus
   clientes de acuerdo a la frecuencia de compras con las condiciones siguientes:
