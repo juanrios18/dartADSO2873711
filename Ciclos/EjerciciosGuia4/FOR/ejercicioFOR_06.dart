@@ -7,8 +7,7 @@ void main(List<String> args) {
   */
   
   int edad, nino=0, joven=0, adulto=0, adultoMayor=0;
-  double peso, pesoNino=0, pesoJoven=0, pesoAdulto=0, pesoAdultoMayor=0;
-  double promediopeNino, promediopeJoven, promediopeAdulto, promediopeAdultoMayor;
+  double peso, pesoNino=0, pesoJoven=0, pesoAdulto=0, pesoAdultoMayor=0,promediopeNino=0, promediopeJoven=0, promediopeAdulto=0, promediopeAdultoMayor=0;
 
   for (int i=0; i<50; i++) {
     print("PERSONA" + (i+1).toString());
@@ -17,17 +16,17 @@ void main(List<String> args) {
     print("Escriba su peso(kg)");
     peso = double.parse(stdin.readLineSync()!);
 
-    if (edad<12) {
+    if (edad < 12) {
       nino = nino + 1;
       pesoNino = pesoNino + peso;
       promediopeNino = pesoNino / nino;
     }
-    else if (edad<29) {
+    else if (edad < 29) {
       joven = joven + 1;
       pesoJoven = pesoJoven + peso;
       promediopeJoven = pesoJoven / joven;
     }
-    else if (edad<59) {
+    else if (edad < 59) {
       adulto = adulto + 1;
       pesoAdulto = pesoAdulto + peso;
       promediopeAdulto = pesoAdulto / adulto;
@@ -38,5 +37,9 @@ void main(List<String> args) {
       promediopeAdultoMayor = pesoAdultoMayor / adultoMayor;
     }
   }
-  print("El promedio de peso en niños es: $promediopeNino (kg) en $nino niños");
+
+  print("El promedio de peso en niños es: $promediopeNino(kg) en $nino niños");
+  print("El promedio de peso en jovenes es: $promediopeJoven(kg) en $joven jovenes");
+  print("El promedio de peso en adultos es: $promediopeAdulto(kg) en $adulto jovenes");
+  print("El promedio de peso en adultos mayores es: $promediopeAdultoMayor(kg) en $adultoMayor jovenes");
 }
