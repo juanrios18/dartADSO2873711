@@ -3,7 +3,7 @@ import 'dart:io';
 void main(List<String> args) {
   // JUAN PABLO RIOS ARISTIZABAL - EJE DOWHILE 03
   /*
-  En la Cámara de Diputados se levanta una encuesta con todos los integrantes con el fin de determinar que porcentaje de los ndiputados esta a favor del Tratado de Libre Comercio, que porcentaje esta en contra y que porcentaje se abstiene de opinar.El programa debe preguntar si se desea continuar ingresando datos.
+  El programa debe preguntar si se desea continuar ingresando datos.
   */
   double porcentajeFavor, porcentajeContra;
   int contContra=0, contFavor=0, totalVotos=0;
@@ -30,6 +30,4 @@ void main(List<String> args) {
   print("El total de votos fue: $totalVotos");
   print("El procentaje a favor es: $porcentajeFavor");
   print("El procentaje en contra es: $porcentajeContra");
-
-
 }

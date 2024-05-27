@@ -3,7 +3,7 @@ import 'dart:io';
 void main(List<String> args) {
   // JUAN PABLO RIOS ARISTIZABAL - EJE FOR 04
   /* 
-  Suponga que se tiene un conjunto de calificaciones de un grupo de 40 alumnos. Realizar un algoritmo para calcular la calificación promedio y la calificación más baja de todo el grupo.
+  Realizar un algoritmo para calcular la calificación promedio y la calificación más baja de todo el grupo.
   */
   List<double> calificaciones = [];
   double sumaCalificaciones = 0;
