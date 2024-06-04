@@ -3,7 +3,7 @@ import 'dart:io';
 void main(List<String> args) {
   // JUAN PABLO RIOS ARISTIZABAL - EJE FOR 05
   /*
-  Calcular  e  imprimir  la  tabla  de  multiplicar  de  un  número  cualquiera.  Imprimir  el  multiplicando,  el multiplicador y el producto. 
+  Imprimir  el  multiplicando,  el multiplicador y el producto. 
   */
   int numero, producto;
   print("Ingrese un número para mostrar su tabla de multiplicar: ");

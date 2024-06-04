@@ -10,19 +10,12 @@ void main(List<String> args) {
 
   print('Ingrese el número de alumnos: ');
   n = int.parse(stdin.readLineSync()!);
-
   while (contador <= n) {
     print('Ingrese la calificación del alumno $contador: ');
     calificacion = double.parse(stdin.readLineSync()!);
-
-
     sumaCalificaciones += calificacion;
-
     contador++;
   }
-
-
   promedio = sumaCalificaciones / n;
-
   print('El promedio de calificaciones del grupo de $n alumnos es: $promedio');
 }

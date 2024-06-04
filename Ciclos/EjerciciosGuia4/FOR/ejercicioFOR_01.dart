@@ -3,7 +3,9 @@ import 'dart:io';
 void main(List<String> args) {
   // JUAN PABLO RIOS ARISTIZABAL - EJE FOR 01
   /*
-  Calcular el promedio de un alumno que tiene 7 calificaciones en la materia de Diseño Estructurado de Algoritmos.  
+  Calcular el promedio de un alumno que tiene 7 
+  calificaciones en la materia de Diseño Estructurado
+  de Algoritmos.  
   */
   int nota;
   int suma = 0;
