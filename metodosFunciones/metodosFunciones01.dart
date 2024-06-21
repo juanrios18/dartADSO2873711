@@ -12,7 +12,14 @@ void main(List<String> args) {
   mostrarLista(frutas, "Fruta");
   print("*"*30);
   mostrarLista(nombres, "Nombre");
+  double multi = multiplicacion(3, 5);
+  print("La multiplicacion es: $multi");
 }
+double multiplicacion(double num1, double num2) {
+  double multiplicacion = num1 * num2;
+  return multiplicacion;
+}
+
 void mostrarLista(List<String> lista,String nombre) {
   for (var i = 0; i < lista.length; i++) {
     print("$nombre #${i+1} ${lista[i]}");
