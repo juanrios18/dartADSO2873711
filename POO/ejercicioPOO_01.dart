@@ -66,7 +66,7 @@ void mostrarInformacion(List<Empleado> empleados) {
     empleados[i].cambiarPuesto(nuevoPuestoUsuario);
 
     double nuevaBonificacion = empleados[i].calcularBonificacion();
-    print("la bonificacion del empleado  mas el salario es: $nuevaBonificacion");
+    print("La bonificacion del empleado  mas el salario es: $nuevaBonificacion");
     print('*' * 30);
   }
 }

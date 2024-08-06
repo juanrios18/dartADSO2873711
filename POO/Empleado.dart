@@ -24,21 +24,21 @@ class Empleado {
 // metood cumplir años
   void cumplirAnios() {
     this.edad++;
-    print("el empleado $nombre cumple $edad años");
+    print("El empleado $nombre cumple $edad años");
   }
 
 // metodo cambiar puesto
   void cambiarPuesto(String nuevoPuesto) {
     this.puesto = nuevoPuesto;
-    print("el empleado $nombre ha sido asendido a $nuevoPuesto");
+    print("El empleado $nombre ha sido asendido a $nuevoPuesto");
   }
 
 //metodo mostrar informacion
   void mostrarInformacion() {
-    print("el nombre del empleado es: ${this.nombre}");
-    print("la edad del empleado es: ${this.edad} ");
-    print("el salario del empleado es: ${this.salario}");
-    print("el puesto del empleado es: ${this.puesto}");
+    print("El nombre del empleado es: ${this.nombre}");
+    print("La edad del empleado es: ${this.edad} ");
+    print("El salario del empleado es: ${this.salario}");
+    print("El puesto del empleado es: ${this.puesto}");
   }
 
   double calcularBonificacion() {
