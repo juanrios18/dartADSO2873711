@@ -4,7 +4,7 @@ class Empleado {
   double salario = 0;
   String puesto = "";
   String tipoContrato = "";
-
+//constructor
   Empleado(String nombre, int edad, double salario, String puesto,
       String tipoContrato) {
     this.nombre = nombre;
@@ -13,7 +13,7 @@ class Empleado {
     this.puesto = puesto;
     this.tipoContrato = tipoContrato;
   }
-
+//metodo aumental salario
   void aumentarSalario(double porcentaje) {
     double valorPorcentaje = this.salario * (porcentaje / 100);
     this.salario = valorPorcentaje + this.salario;
@@ -21,36 +21,38 @@ class Empleado {
         "El empleado $nombre que ocupa el puesto de $puesto, recibe un aumento de $porcentaje % sobre su salario con un total de $salario ");
   }
 
+// metood cumplir años
   void cumplirAnios() {
-    int totalEdad = this.edad + 1;
-    print("El empleado $nombre cumple $totalEdad años");
+    this.edad++;
+    print("el empleado $nombre cumple $edad años");
   }
 
+// metodo cambiar puesto
   void cambiarPuesto(String nuevoPuesto) {
     this.puesto = nuevoPuesto;
-    print("El empleado $nombre ha sido asendido a $nuevoPuesto");
+    print("el empleado $nombre ha sido asendido a $nuevoPuesto");
   }
 
+//metodo mostrar informacion
   void mostrarInformacion() {
-    print("*"*50);
-    print("El nombre del empleado es: ${this.nombre}");
-    print("La edad del empleado es: ${this.edad} ");
-    print("El salario del empleado es: ${this.salario}");
-    print("El puesto del empleado es: ${this.puesto}");
-    print("*"*50);
+    print("el nombre del empleado es: ${this.nombre}");
+    print("la edad del empleado es: ${this.edad} ");
+    print("el salario del empleado es: ${this.salario}");
+    print("el puesto del empleado es: ${this.puesto}");
   }
 
   double calcularBonificacion() {
-    double bonificacion = 0;
+    double bonificacion;
     if (tipoContrato == "contratista") {
       bonificacion = this.salario * 0.10;
-    }
-    if (tipoContrato == "temporal") {
+    } else if (tipoContrato == "temporal") {
       bonificacion = this.salario * 0.05;
-    }
-    if (tipoContrato == "indefinido") {
+    } else if (tipoContrato == "indefinido") {
       bonificacion = this.salario * 0.15;
+    } else {
+      bonificacion = 0;
     }
-    return bonificacion;
+    this.salario = this.salario + bonificacion;
+    return salario;
   }
 }
