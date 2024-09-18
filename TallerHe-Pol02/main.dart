@@ -13,7 +13,7 @@ void main(List<String> args) {
   List<Parlante> parlantes = [];
   do {
   print("""
-Elige una opción:
+Seleccione una opción:
 1)	Crear un Disco Duro
 2)	Crear un Marcador
 3)	Crear un Portátil
