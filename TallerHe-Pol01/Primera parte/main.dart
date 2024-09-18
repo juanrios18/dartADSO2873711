@@ -47,7 +47,7 @@ void main() {
       leerSalario("Salario : "));
       print(" ");
 
-  print("Ingrese los datos para el segundo Programador 2:");
+  print("Ingrese los datos para el segundo Programador :");
   Programador programador2 = Programador(
       leerinfo("Nombre Completo : "),
       leerEdadGoles("Edad : "), 
@@ -56,10 +56,12 @@ void main() {
 
   // Mostrar datos ingresados
   print(" ");
-  print("*" * 30);
+  print("*" * 40);
   print(" ");
   mostrarDatosFutbolista1(futbolista1);
   mostrarDatosFutbolista2(futbolista2);
+  print("*" * 40);
+  print(" ");
   mostrarDatosProgramador1(programador1);
   mostrarDatosProgramador2(programador2);
 }

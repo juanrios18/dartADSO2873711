@@ -38,7 +38,7 @@ void mostrarDatosProgramador1(Programador programador1) {
   print(" ");
 }
 void mostrarDatosProgramador2(Programador programador2) {
-  print("Datos del Segundo Programador 2:");
+  print("Datos del Segundo Programador :");
   print("Nombre Completo : ${programador2.getNombre()}");
   print("Edad : ${programador2.getEdad()}");
   print("Empresa : ${programador2.getEmpresa()}");
